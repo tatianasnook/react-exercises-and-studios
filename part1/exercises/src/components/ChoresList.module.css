@@ -1,16 +1,18 @@
-
+.choresList{
+   background-color: #a0fede;
+   padding: 10px;
+   margin-bottom: 40px;
+}
 .choresText {
    color: mediumslateblue;
-   
    font-size: 20px;
    font-weight: 600;
    font-style: italic;
-}
-ul {
-   list-style-position: inside;
+   text-align: left;
 }
 .choresHeading {
    color: magenta;
+   text-align: left;
    text-decoration: underline;
    font-family:'Courier New', Courier, monospace;
 }

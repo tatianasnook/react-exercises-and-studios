@@ -2,7 +2,7 @@ import styles from './ChoresList.module.css';
 
 export default function ChoresList() {
    return (
-      <div>
+      <div className={styles.choresList}>
          <h3 className={styles.choresHeading}>My chores list</h3>
          <ul>
             <li className={styles.choresText}>Task 1</li>
