@@ -1,7 +1,16 @@
-.choresText {
-   color: black;
-}
 
+.choresText {
+   color: mediumslateblue;
+   
+   font-size: 20px;
+   font-weight: 600;
+   font-style: italic;
+}
+ul {
+   list-style-position: inside;
+}
 .choresHeading {
-   color: black;
+   color: magenta;
+   text-decoration: underline;
+   font-family:'Courier New', Courier, monospace;
 }
