@@ -1,0 +1,10 @@
+.recipeAuthorBlock {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.imageUpdates {
+   object-fit: contain;
+   width: 400px;
+}
