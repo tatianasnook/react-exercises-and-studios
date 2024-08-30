@@ -1,11 +1,9 @@
 import "./styling.css";
 
-function SaveButton() {
-  function handleClick() {
-    alert("You are saving this pin!");
-  }
+function SaveButton({ handleClick }) {
+  
   return (
-    <button id="saveButton" onClick={handleClick}>
+    <button id="saveButton" onClick={event => handleClick(true)}>
       Save
     </button>
   );
